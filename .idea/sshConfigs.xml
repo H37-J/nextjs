@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="52.79.130.33" id="3a8315e5-0489-4923-a1b2-bcbaabd9a41b" keyPath="C:\Users\moveint\IdeaProjects\py\dev.pem" port="22" nameFormat="DESCRIPTIVE" username="bitnami" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

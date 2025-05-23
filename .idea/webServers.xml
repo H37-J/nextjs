@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ee457825-47ad-41ef-9303-58e816d6a958" name="node">
+        <fileTransfer accessType="SFTP" host="52.79.130.33" port="22" sshConfigId="3a8315e5-0489-4923-a1b2-bcbaabd9a41b" sshConfig="bitnami@52.79.130.33:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
