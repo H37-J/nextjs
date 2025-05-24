@@ -29,8 +29,8 @@ const ProductCard = ({imageUrl, name, content, price, link}: ProductCardProps) =
                 <h3 className="text-lg font-semibold text-gray-800 truncate mb-2">{name}</h3>
                 <div className="flex items-baseline mb-3">
 
-                    {/*<span className="text-md text-gray-400">{content}</span>*/}
-                    {/*<span className="text-xl font-bold text-gray-400">{price}</span>*/}
+                    <span className="text-md text-gray-400">{content}</span>
+                    <span className="text-xl font-bold text-gray-400">{price}</span>
                 </div>
                 <a
                     href={link}
