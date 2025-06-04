@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <video src="blob:https://2211.92mj.net/dd000d8f-5574-457d-9658-b719f763552f"></video>
+</body>
+
+<script>
+  const videoElement = document.querySelector('video');
+
+  const blobUrl = videoElement.src;
+
+  // blob 데이터를 fetch로 가져와서 파일로 저장하기
+  fetch(blobUrl)
+          .then(res => res.blob())
+          .then(blob => {
+            // 파일 저장 링크 생성
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'video.mp4'; // 원하는 파일명 지정
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            // 메모리 해제
+            URL.revokeObjectURL(a.href);
+          })
+          .catch(console.error);
+</script>
+</html>

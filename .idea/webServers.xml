@@ -3,7 +3,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="ee457825-47ad-41ef-9303-58e816d6a958" name="node">
-        <fileTransfer accessType="SFTP" host="52.79.130.33" port="22" sshConfigId="3a8315e5-0489-4923-a1b2-bcbaabd9a41b" sshConfig="bitnami@52.79.130.33:22 key" keyPair="true">
+        <fileTransfer accessType="SFTP" host="13.125.91.198" port="22" sshConfigId="3a8315e5-0489-4923-a1b2-bcbaabd9a41b" sshConfig="bitnami@13.125.91.198:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7616dff4-3165-49a5-9c3c-a315d531d509" name="wordpress">
+        <fileTransfer accessType="SFTP" host="13.125.91.198" port="22" sshConfigId="3a8315e5-0489-4923-a1b2-bcbaabd9a41b" sshConfig="bitnami@13.125.91.198:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
